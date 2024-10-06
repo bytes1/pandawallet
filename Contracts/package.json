@@ -1,0 +1,26 @@
+{
+  "name": "Panda Wallet",
+  "version": "0.0.1",
+  "description": "Neo x account abstraction wallet",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "engines": {
+    "node": ">= 18"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --check \"**/*.{json,md,yml}\"",
+    "prettier:fix": "prettier --check \"**/*.{json,md,yml}\"",
+    "solhint": "solhint {script,src,test}/**/*.sol",
+    "solhint:fix": "solhint {script,src,test}/**/*.sol --fix",
+    "fmt": "forge fmt --check",
+    "fmt:fix": "forge fmt"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^2.8.8",
+    "solhint-community": "^3.7.0-rc01"
+  }
+}
