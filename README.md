@@ -114,6 +114,16 @@ To execute the PayMaster, Bundler, and Frontend components, Docker containers wo
 
 webAuthAccount contracts control the passkey authentication.
 
+#### Backend and frontend deployment
+
+For backend and frontend deployment, navigate to the `Applications` directory and run the Docker command below.
+
+```bash
+docker-compse up -d
+```
+
+For setting up the `.env` file, please refer to the Applications folder. Running the above command will deploy four containers.
+
 ## Live contracts addresses
 
 <img src="images/7.jpg" /> <br>
